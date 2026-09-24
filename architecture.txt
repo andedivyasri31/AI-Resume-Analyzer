@@ -1,0 +1,36 @@
+SYSTEM ARCHITECTURE
+
+User
+  |
+  v
+Streamlit Web Interface
+  |
+  +--> PDF Resume Upload
+  |       |
+  |       v
+  |   PyPDF2 Text Extraction
+  |
+  +--> Job Description
+          |
+          v
+     Skill Detection Engine
+          |
+          +--> Resume Skills
+          |
+          +--> Job Skills
+                  |
+                  v
+           Matching Engine
+                  |
+        +---------+----------+
+        |                    |
+        v                    v
+   Match Percentage      Skill Gaps
+        |                    |
+        +---------+----------+
+                  |
+                  v
+       Suggestions + Questions
+                  |
+                  v
+             SQLite DB

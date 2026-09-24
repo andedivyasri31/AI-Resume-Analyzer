@@ -1,0 +1,28 @@
+PROJECT: AI-Powered Resume Analyzer & Job Match System
+
+Problem:
+Students and freshers often find it difficult to understand whether their resume
+matches a particular job description and which skills they should improve.
+
+Solution:
+This application accepts a resume PDF and a job description, extracts relevant
+skills, calculates a skill-based match percentage, identifies missing skills,
+and provides interview preparation suggestions.
+
+Key modules:
+1. PDF Resume Parser
+2. Skill Detection Engine
+3. Job Match Calculator
+4. Skill Gap Analyzer
+5. Interview Question Generator
+6. SQLite History Module
+7. Streamlit Dashboard
+
+Interview explanation:
+"I developed a Python and Streamlit application that analyzes a candidate's PDF
+resume against a job description. I used PyPDF2 for extracting resume text and
+regular-expression based matching to detect known skills. The system calculates
+a skill-based match percentage, displays matched and missing skills, generates
+improvement suggestions and interview questions, and stores previous analyses in
+SQLite. I chose Streamlit because it allowed me to build and demonstrate the
+application quickly with a clean interactive interface."

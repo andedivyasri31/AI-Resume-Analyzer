@@ -1,0 +1,18 @@
+Software Developer Intern
+
+We are looking for a Software Developer Intern with knowledge of Python, Java,
+SQL, Git, GitHub, HTML, CSS, REST API, Streamlit, data analysis and problem solving.
+
+Responsibilities:
+- Develop and test Python applications.
+- Work with SQL databases.
+- Build simple web interfaces.
+- Integrate REST APIs.
+- Collaborate using Git and GitHub.
+- Analyze application data and improve features.
+
+Requirements:
+- Strong programming fundamentals.
+- Knowledge of Python and SQL.
+- Basic understanding of APIs and web technologies.
+- Good communication and problem-solving skills.
