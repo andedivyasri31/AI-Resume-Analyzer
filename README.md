@@ -1,91 +1,71 @@
-# AI Resume Analyzer & Job Match System
+# AI Resume Analyzer
 
-A beginner-friendly portfolio project built with Python and Streamlit.
+An AI-powered web application that analyzes resumes against a given Job Description (JD) and provides a resume-to-job match score along with relevant insights.
 
 ## Features
 
-- Upload a PDF resume
-- Extract resume text
-- Detect technical skills
-- Compare resume skills with a job description
-- Calculate a job-match percentage
-- Identify matched and missing skills
-- Generate improvement suggestions
-- Generate interview questions
-- Store analysis history using SQLite
-- Display a simple skill-match chart
+* Upload resume in PDF format
+* Enter a Job Description
+* Extract and analyze resume content
+* Compare resume skills with job requirements
+* Generate a resume-to-JD match score
+* Identify relevant and missing skills
+* Simple and interactive Streamlit interface
 
-## Tech Stack
+## Technologies Used
 
-- Python
-- Streamlit
-- PyPDF2
-- Pandas
-- SQLite
-- Regular Expressions
-- Git/GitHub
+* Python
+* Streamlit
+* Natural Language Processing (NLP)
+* PDF Processing
+* Text Matching
+* Git & GitHub
 
-## Run locally
+## Project Structure
 
-### 1. Create a virtual environment
-
-```bash
-python -m venv venv
+```text
+AI-Resume-Analyzer/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+├── architecture.txt
+├── sample_job_description.txt
+├── resume_project_description.txt
+├── .gitignore
+└── .env.example
 ```
 
-Windows:
+## How to Run
 
-```bash
-venv\Scripts\activate
-```
-
-### 2. Install dependencies
+1. Clone the repository.
+2. Open the project folder in VS Code.
+3. Install the required dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Start the application
+4. Run the Streamlit application:
 
 ```bash
 streamlit run app.py
 ```
 
-The browser will open the application automatically.
+5. Open the local URL shown in the terminal.
 
-## Project workflow
+## Use Case
 
-```text
-Resume PDF
-    ↓
-PDF Text Extraction
-    ↓
-Skill Detection
-    ↓
-Job Description Skill Detection
-    ↓
-Matched / Missing Skills
-    ↓
-Match Percentage
-    ↓
-Suggestions + Interview Questions
-    ↓
-SQLite History
-```
+This project helps job seekers understand how well their resume matches a specific job description and identify skills that may need to be highlighted or improved.
 
-## Resume description
+## Future Enhancements
 
-**AI-Powered Resume Analyzer & Job Match System**
-- Developed a Python and Streamlit-based application to analyze resumes and compare candidate skills with job descriptions.
-- Implemented PDF text extraction, automated skill detection, job-match scoring, and skill-gap identification.
-- Added SQLite-based analysis history and an interactive dashboard with improvement suggestions and role-specific interview questions.
+* Improved semantic matching using embeddings
+* Better skill extraction
+* Resume improvement suggestions
+* Support for multiple resume formats
+* More detailed ATS analysis
 
-## Future enhancements
+## Author
 
-- LLM-based semantic resume analysis
-- ATS keyword analysis
-- Resume section detection
-- Resume improvement rewriting
-- Job recommendations
-- Authentication
-- Cloud deployment
+**Ande Divyasri**
